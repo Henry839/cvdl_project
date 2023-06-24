@@ -1,0 +1,9 @@
+rat
+dressage
+blueboy
+car
+dog
+parkour_boy
+skating
+skiing
+skiing_slalom
