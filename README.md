@@ -4,7 +4,7 @@ This is the repo for cvdl2023 project: Continuous learning of concept in videos
 ## Dataset Statistics:
 * We collect data from CLVOS23, DAVIS16, SegTrack v2. 
 
- * Covering 13 domain
+ * Covering **13** types, **3** resource amount level.
 
 | Label | Number| Resource Amount Level |
 | --- | --- | --- |
