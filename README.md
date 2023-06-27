@@ -22,7 +22,7 @@ Covering 13 domain
 | dressage | 447 | 
 
 
-** Dataset loading method **
+**Dataset loading method**
 '''python
 
 '''
