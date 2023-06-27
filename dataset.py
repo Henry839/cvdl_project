@@ -9,7 +9,10 @@ from torchvision.io import read_image
 from torch.utils.data import Dataset
 from tqdm import tqdm
 import torch
-class CLVOS23_dataset(Dataset):
+import numpy as np
+import torch
+from torch.utils.data.sampler import SubsetRandomSampler
+class VideoDataset(Dataset):
     def __init__(self, label):
 
 #        label_list = ['blueboy','car','dog','dressage','parkour_boy','rat','skating','skiing','skiing_slalom']
@@ -44,7 +47,22 @@ class CLVOS23_dataset(Dataset):
         label = self.label[idx]
         gif = torch.stack(gif, dim=1)
         return gif, label
-	
+def get_loader(dataset, batch_size):
+    dataset_size = len(dataset)
+    indices = list(range(dataset_size))
+    train_split = 0.8
+    split = int(np.floor(train_split * dataset_size))
+
+    # Be careful : Don't Shuffle
+    train_indices, test_indices = indices[:split], indices[split:]
+    train_sampler = SubsetRandomSampler(train_indices)
+    test_sampler = SubsetRandomSampler(test_indices)
+    train_loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, 
+                                           sampler = train_sampler)
+
+    test_loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, 
+                                          sampler = test_sampler)
+    return train_loader, test_loader
 		
 		
 
@@ -52,5 +70,4 @@ class CLVOS23_dataset(Dataset):
 			
 	
 			
-
 
