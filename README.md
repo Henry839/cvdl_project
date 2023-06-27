@@ -6,6 +6,7 @@ This is the repo for cvdl2023 project: Continuous learning of concept in videos
 
  * Covering **13** types, **3** resource amount level.
  * 8 frames each data
+ * $Train : Test = 2 : 1$
 
 | Label | Data Number| Resource Amount Level |
 | --- | --- | --- |
