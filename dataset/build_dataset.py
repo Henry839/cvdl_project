@@ -6,8 +6,11 @@ import os
 from os import listdir
 from os.path import isfile, join
 
-root_path = "./JPEGImages"
-type_name = ['blueboy','car','dog','dressage','parkour_boy','rat','skating','skiing','skiing_slalom']
+root_path = "./"
+#type_name = os.listdir("./DAVIS/JPEGImages/480p")
+type_name = ['worm']
+
+#type_name = ['blueboy','car','dog','dressage','parkour_boy','rat','skating','skiing','skiing_slalom']
 print("Begin")
 
 for t in type_name:
