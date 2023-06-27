@@ -23,6 +23,7 @@ Covering 13 domain
 
 
 ***Dataset loading method***
+Please change {label} in to corresponding labels mentioned in the table above, such as "bear","cows"...
 ```python
 from dataset import VideoDataset
 dataset = VideoDataset({label})
