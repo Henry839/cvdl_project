@@ -7,7 +7,7 @@ This is the repo for cvdl2023 project: Continuous learning of concept in videos
  * Covering **13** types, **3** resource amount level.
  * 8 frames each data
 
-| Label | Number| Resource Amount Level |
+| Label | Data Number| Resource Amount Level |
 | --- | --- | --- |
 | soccerball | 6 | low |
 | bear | 10 | low |
