@@ -29,7 +29,21 @@ Please change {label} in to corresponding labels mentioned in the table above, s
 from dataset import VideoDataset
 dataset = VideoDataset({label})
 ```
+---
+## Model
+* Covering **3** kinds of models: Basic Convolutional Network, Resnet3d, Mixed Convolutional 3d Network
+```python
+# Basic Convolutional Network
+from model import ConvClassifier
+model = ConvClassifier(13) # 13 classes for our dataset
 
+# Resnet3d
+from model import ResnetClassifier
+model = ResnetClassifier(13)
+
+# Mixed convolutional 3d network
+model = MixedConvClassifier(13)
+```
 
 
 ---
