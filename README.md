@@ -6,6 +6,7 @@ We collect data from CLVOS23, DAVIS16, SegTrack v2.
 Covering 13 domain
 
 | Label | Number|
+| --- | --- |
 | soccerball | 5 | 
 | bear | 9 |
 | cows | 12 | 
