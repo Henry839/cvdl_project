@@ -25,7 +25,8 @@ This is the repo for cvdl2023 project: Continuous learning of concept in videos
 
 
 ***Dataset loading method***
-Please change {label} in to corresponding labels mentioned in the table above, such as "bear","cows"...
+
+* Please change {label} in to corresponding labels mentioned in the table above, such as "bear","cows"...
 ```python
 from dataset import VideoDataset
 dataset = VideoDataset({label})
