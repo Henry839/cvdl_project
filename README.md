@@ -7,25 +7,26 @@ Covering 13 domain
 
 | Label | Number|
 | --- | --- |
-| soccerball | 5 | 
-| bear | 9 |
-| cows | 12 | 
-| camel | 10 |
-| worm | 29 | 
-| skiing | 85 |
-| skating | 96 |
-| car | 137|
-| rat | 176 |
-| parkour_boy | 196 | 
-| blueboy | 299 |
-| dog | 110 |
-| dressage | 447 | 
+| soccerball | 6 | 
+| bear | 10 |
+| cows | 13 | 
+| camel | 11 |
+| worm | 30 | 
+| skiing | 86 |
+| skating | 97 |
+| dog | 111 |
+| car | 138|
+| rat | 177 |
+| parkour_boy | 197 | 
+| blueboy | 300 |
+| dressage | 448 | 
 
 
-**Dataset loading method**
-'''python
-
-'''
+***Dataset loading method***
+```python
+from dataset import VideoDataset
+dataset = VideoDataset({label})
+```
 
 
 
