@@ -6,6 +6,9 @@ We collect data from CLVOS23, DAVIS16, SegTrack v2.
 Covering 14 domain
 
 | bear | 9 |
+| --- | --- |
+| blueboy | 299 |
+
 
 ---
 * dataset.py: load dataset
