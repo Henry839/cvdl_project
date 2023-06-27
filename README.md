@@ -20,6 +20,10 @@ Covering 13 domain
 | blueboy | 299 |
 | dog | 110 |
 | dressage | 447 | 
+** Dataset loading method **
+'''python
+
+'''
 
 
 
