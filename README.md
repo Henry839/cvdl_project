@@ -47,7 +47,15 @@ model = ResnetClassifier(13)
 # Mixed convolutional 3d network
 model = MixedConvClassifier(13)
 ```
-
+## Experiment result
+| Method | model | soccerball | bear | cows | camel | worm | skiing | skating | dog | car | rat | parkour_boy | blueboy | dressage| 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Baseline | Conv | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 |
+| Baseline | Resnet | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 |
+| Baseline | Mixed | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 |
+| Loss Function |  |     |     |     |     |     |     |     |     |     |     |     |       |
+| Scenery Memory | |     |     |     |     |     |     |     |     |     |     |     |       |
+| Dynamic Structure |    |     |     |     |     |     |     |     |     |     |     |     |       |
 
 ---
 * dataset.py: load dataset
