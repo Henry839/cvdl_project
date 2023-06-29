@@ -48,14 +48,19 @@ model = ResnetClassifier(13)
 model = MixedConvClassifier(13)
 ```
 ## Experiment result
-| Method | model | soccerball | bear | cows | camel | worm | skiing | skating | dog | car | rat | parkour_boy | blueboy | dressage| 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Baseline | Conv | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 |
-| Baseline | Resnet | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 |
-| Baseline | Mixed | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 |
+| Method | model | soccerball | bear | cows | camel | worm | skiing | skating | dog | car | rat | parkour_boy | blueboy | dressage| Avg | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| Baseline | Conv | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 | 7.69 |
+| Baseline | Resnet | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 | 7.69 |
+| Baseline | Mixed | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 | 7.69 |
 | Loss Function |  |     |     |     |     |     |     |     |     |     |     |     |       |
-| Scenery Memory | |     |     |     |     |     |     |     |     |     |     |     |       |
+| Experience-Replay (0.1) | Conv | 100.0    | 100.0    | 0.0    | 100.0    | 77.77    | 95    | 43.5    | 100    | 78.3    |  100.0   |     |       |
 | Dynamic Structure |    |     |     |     |     |     |     |     |     |     |     |     |       |
+---
+## Experience-Replay
+TODO: Draw 3 figures (each model one) of performance vs memory size
+
+
 
 ---
 * dataset.py: load dataset
