@@ -63,7 +63,7 @@ model = MixedConvClassifier(13)
 TODO: Draw 3 figures (each model one) of performance vs memory size
 | Method | model | soccerball | bear | cows | camel | worm | skiing | skating | dog | car | rat | parkour_boy | blueboy | dressage| Avg | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
-| Experience-Replay (0.2) | Conv | 100.0    | 100.0    | 100.0    | 0.0    | 100.0    | 77.8    | 95.0    | 43.5    | 100.0    |  88.9   |  100.0   |   78.3    | 100.0 |
+| Experience-Replay (0.2) | Conv | 100.0    | 100.0    | 0.0    | 100.0    | 100.0    | 100.0    | 100.0    | 100.0   | 88.9   |  97.5   |  75.0   |   97.8    | 100.0 |
 | Experience-Replay (0.2) | Resnet | 0.0    | 0.0    | 0.0    | 0.0    | 0.0    | 88.9   | 100.0    | 0.0    | 96.4    |  38.9   |  90.0   |   36.7    | 100.0 |
 | Experience-Replay (0.2) | Mixed | 0.0    | 0.0    | 100.0    | 0.0    | 100.0    | 94.4    | 100.0    | 21.7    | 100.0    |  86.1   |  97.5   | 76.7 | 100.0 |
 
