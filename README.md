@@ -69,7 +69,9 @@ TODO: Draw 3 figures (each model one) of performance vs memory size
 | Experience-Replay (0.3) | Conv | 50.0    | 0.0    | 0.0    | 66.7    | 16.7    | 100.0    | 100.0    | 100.0    | 100.0    |  85.1   |  100.0   | 81.7 | 100.0 |
 | Experience-Replay (0.3) | Resnet | 0.0    | 0.0    | 0.0    | 0.0    | 0.0    | 66.7   | 0.0    | 100.0   | 7.1    |  2.7   |  100   |   40.0   | 60.0 |
 | Experience-Replay (0.3) | Mixed | 0.0    | 0.0    | 0.0    | 0.0    | 0.0    | 11.1    | 50.0    | 73.9    | 85.7    |  97.2   |  97.5  | 55.0 | 100.0 |
-
+| Experience-Replay (0.4) | Conv | 100.0    | 0.0    | 0.0    | 33.3    | 100.0    | 83.3    | 100.0    | 47.8    | 100.0    |  97.2   |  97.5   | 68.3 | 100.0 |
+| Experience-Replay (0.4) | Resnet | 0.0    | 0.0    | 0.0    | 0.0    | 0.0    | 66.7   | 100.0    | 100.0   | 75.0    |  77.8   |  100.0   |   53.3   | 98.9 |
+| Experience-Replay (0.4) | Mixed | 0.0    | 0.0    | 0.0    | 0.0    | 0.0    | 0.0    | 0.0    | 95.7    | 0.0    |  22.2   |  100.0  | 0.0 | 93.3 |
 
 ---
 * dataset.py: load dataset
